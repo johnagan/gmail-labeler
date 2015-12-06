@@ -6,7 +6,7 @@ var filters = [
   // { match: /(?:List-ID:\s(.+?)\s<)/, archive: true }, // organize by list name
 
   // use the subject shortcut to check the subject for text
-  // { name: 'finance', subject: 'bank' }, // label all emails with "bank" in the subject as "finance"
+  // { name: 'finance', subject: 'bank', markRead: true }, // label all emails with "bank" in the subject as "finance" and mark as read
 
 ];
 
