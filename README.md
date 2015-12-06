@@ -26,6 +26,17 @@ var filters = [
 * `star` - true/false to star the matching emails
 * `markRead` - true/false to mark the matching emails as read
 
+## From
+
+```javascript
+var from = [
+  "from:email@domain.com",
+  "list:subscription.domain.com"
+];
+```
+
+This can be any combination of [Gmail filters](https://support.google.com/mail/answer/7190?hl=en) to apply the labels against.
+
 ## Installation
 
 _You'll need to enable [Google App Scripts](https://script.google.com) in your Google Drive account_
