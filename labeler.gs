@@ -12,7 +12,7 @@ var filters = [
 
 var from = [
   // "from:email@domain.com",
-  // "list:sales.github.com"
+  // "list:subscription.domain.com"
 ];
 
 function labeler() {
