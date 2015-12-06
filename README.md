@@ -9,13 +9,13 @@ Label and filter Gmail threads using basic RegEx against the email body or heade
 ```javascript
 var filters = [
   // RegEx match against the raw contents of the email
-  // { name: 'user emails', match: /deliveredto:user@domain.com/, star: true }, // star emails deliveredto user@domain.com
+  { name: 'user emails', match: /deliveredto:user@domain.com/, star: true }, // star emails deliveredto user@domain.com
   
   // use a RegEx selector (.+?) to set the label name
-  // { match: /(?:List-ID:\s(.+?)\s<)/, archive: true }, // organize by list name
+  { match: /(?:List-ID:\s(.+?)\s<)/, archive: true }, // organize by list name
 
   // use the subject shortcut to check the subject for text
-  // { name: 'finance', subject: 'bank', markRead: true }, // label all emails with "bank" in the subject as "finance" and mark as read
+  { name: 'finance', subject: 'bank', markRead: true }, // label all emails with "bank" in the subject as "finance" and mark as read
 ];
 ```
 
